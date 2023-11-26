@@ -47,7 +47,8 @@
             android:ems="10"
             android:hint="email"
             android:inputType="textEmailAddress"
-            android:onClick="registrar" />
+            android:textColor="#000000"
+            />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
