@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Reto1</string>
+    <string name="inicio">Cuidemos el Agua</string>
+    <string name="consumo">Registro de Consumo de Agua</string>
+    <string name="consejo">Consejos para el cuidado del Agua</string>
+    <string name="seguimiento">Seguimiento del consumo del Agua</string>
+    <string name="informacion">Seguimiento en el ahorro del Agua</string>
+    <string name="configuracion">Configuración</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    android:orientation="vertical"
+    tools:context=".Categorias">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#3647C7"
+            android:text="EcoRecicl@"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="#3647C7"
+            android:layout_gravity="right"
+            android:layout_marginEnd="0dp"
+            android:onClick="gotoPrincipal"
+            app:srcCompat="@android:drawable/ic_menu_revert" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:text="Cambiando"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="right"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="30dp"
+        android:text="el Mundo"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"/>
+    <Button
+        android:id="@+id/btVidrio"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#3647C7"
+        android:text="Vidrio"
+        android:onClick="gotoReciclaVidrio"
+        android:textSize="30dp"/>
+    <Button
+        android:id="@+id/btPlastico"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#3647C7"
+        android:onClick="gotoReciclaPlastico"
+        android:text="Plastico"
+        android:textSize="30dp"/>
+    <Button
+        android:id="@+id/btPapel"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#3647C7"
+        android:onClick="gotoReciclaPapel"
+        android:text="Papel"
+        android:textSize="30dp"/>
+</LinearLayout>

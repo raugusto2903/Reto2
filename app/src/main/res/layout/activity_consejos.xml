@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    android:orientation="vertical"
+    tools:context=".Consejos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#3647C7"
+            android:text="EcoRecicl@"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="#3647C7"
+            android:layout_gravity="right"
+            android:layout_marginEnd="0dp"
+            android:onClick="gotologin"
+            app:srcCompat="@android:drawable/ic_menu_revert" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:text="Consejos"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/ibIU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_media_previous" />
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/vidrio"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vidrio"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+            <ImageButton
+                android:id="@+id/ibvidrio1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF" />
+        </LinearLayout>
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/papel"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Papel"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+            <ImageButton
+                android:id="@+id/btPapel1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF" />
+        </LinearLayout>
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/plastico"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plastico"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+            <ImageButton
+                android:id="@+id/btPlastico1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF" />
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/ibDU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_media_next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/ibID2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_media_previous" />
+        <TextView
+            android:id="@+id/title_tips"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:background="@color/white"
+            android:text="Consejos para reducir el consumo de agua /n
+                Utilizar botellas libres de BPA que son prácticamente irrompibles, son la alternativa a las botellas de un solo uso
+                Reserva un sitio especifico y comodo en casa para el reciclaje
+                Separa bien los envases. A veces, parte de un mismo envase va a diversos contenedores. No se te olvide aplánarlos
+                Reduce (dentro de lo posible) la cantidad de residuos que generas, Casi todo tiene un segundo uso
+                Utiliza como contenedor de reciclaje bolsas de tela, bolsas reutilizables, carros…tec.
+                Aprovecha los envases antes de deshacerte de ellos; decora tu casa, haz manualidades
+                Recicla la ropa, es otra de las formas de reciclar en casa" />
+        <ImageButton
+            android:id="@+id/ibID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_media_next" />
+    </LinearLayout>
+
+</LinearLayout>
