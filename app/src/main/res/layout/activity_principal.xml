@@ -52,16 +52,18 @@
         android:textSize="50sp"
         android:textStyle="bold"
         android:textColor="#3F51B5"/>
+
     <Button
         android:id="@+id/btConsumo"
         android:layout_width="230dp"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
         android:layout_gravity="center"
+        android:layout_margin="30dp"
         android:backgroundTint="#3647C7"
-        android:text="Consumo"
         android:onClick="gotoCategorias"
-        android:textSize="30dp"/>
+        android:text="Recicla"
+        android:textSize="30dp" />
+
     <Button
         android:id="@+id/btEstadisticas"
         android:layout_width="230dp"

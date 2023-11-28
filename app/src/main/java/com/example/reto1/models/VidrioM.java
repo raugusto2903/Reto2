@@ -1,16 +1,16 @@
 package com.example.reto1.models;
 
-public class Electricity {
-    private final String SERIAL,ID_USER;
+public class VidrioM {
+    private final String SERIAL;
     private int quantity,price;
-    private String month;
+    private String month, idUser;
 
-    public Electricity(String SERIAL, int quantity, int price, String month, String idUser) {
+    public VidrioM(String SERIAL, int quantity, int price, String month, String idUser) {
         this.SERIAL = SERIAL;
         this.quantity = quantity;
         this.price = price;
         this.month = month;
-        this.ID_USER = idUser;
+        this.idUser = idUser;
     }
 
     public String getSERIAL() {
@@ -42,6 +42,7 @@ public class Electricity {
     }
 
     public String getIdUser() {
-        return ID_USER;
+        return idUser;
     }
-    }
+
+}
